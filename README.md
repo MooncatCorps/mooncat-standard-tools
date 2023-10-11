@@ -1,11 +1,18 @@
-# Mooncat Standard: Formatting
-This repository contains several configuration files which instruct formatters
-on how to treat and format MooncatCorps code. 
+# MooncatCorps Standard Tooling
+This repository contains several configuration files for formatters, linters and
+much more. These have bee configured according to MooncatCorps standards in
+order to keep a clean and consistent ecosystem.
 
-It aims to make all MooncatContent uniform and readable. 
+These are configuration files that are completely independent of any projects
+and thus can be ported anywhere without fearing forgetting to include
+any particular components. All files can be used as-is.
 
-Mooncat generally abides by exploiting whitespace quite a lot and it does so
-in order to make every token as visible as possible. Of course, we're not
-putting whitespace around *each and every token*; just the ones we deem
-most important and in need of explicit recognition.
+## Implementations
+
+### C++
+
+#### Clang
+- Clangd
+- Clang Tidy
+- Clang Format
 
