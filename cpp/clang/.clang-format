@@ -1,7 +1,7 @@
 ---
 Language:        Cpp
 
-AccessModifierOffset: 4
+AccessModifierOffset: -4
 
 AlignAfterOpenBracket:  Align
 
@@ -89,7 +89,7 @@ BraceWrapping:
   SplitEmptyRecord: true
   SplitEmptyNamespace: true
 
-BreakAfterAttributes:           Always
+BreakAfterAttributes:           Never
 BreakArrays:                    true
 BreakBeforeBinaryOperators:     NonAssignment
 BreakBeforeBraces:              Attach
@@ -145,10 +145,10 @@ IncludeCategories:
 IncludeIsMainRegex: '(Test)?$'
 IncludeIsMainSourceRegex: ''
 
-IndentAccessModifiers: true
-IndentCaseBlocks:      true
+IndentAccessModifiers: false
+IndentCaseBlocks:      false
 IndentCaseLabels:      false
-IndentExternBlock:     Indent
+IndentExternBlock:     NoIndent
 IndentGotoLabels:      false
 IndentPPDirectives:    AfterHash
 IndentRequiresClause:  false
@@ -180,7 +180,7 @@ MacroBlockEnd:   ''
 
 MaxEmptyLinesToKeep: 1
 
-NamespaceIndentation: All
+NamespaceIndentation: None
 
 PackConstructorInitializers: Never
 
@@ -218,7 +218,7 @@ SortIncludes:    CaseSensitive
 SortUsingDeclarations: LexicographicNumeric
 
 SpaceAfterCStyleCast:            true
-SpaceAfterLogicalNot:            false
+SpaceAfterLogicalNot:            true
 SpaceAfterTemplateKeyword:       true
 SpaceAroundPointerQualifiers:    Default
 SpaceBeforeAssignmentOperators:  true
@@ -238,12 +238,12 @@ SpaceBeforeParensOptions:
   AfterRequiresInExpression:    true
   BeforeNonEmptyParentheses:    false
 SpaceBeforeRangeBasedForLoopColon: true
-SpaceBeforeSquareBrackets:         false
+SpaceBeforeSquareBrackets:         true
 SpaceInEmptyBlock:                 true
 SpaceInEmptyParentheses:           false
 SpacesBeforeTrailingComments:      1
 SpacesInAngles:                    Never
-SpacesInConditionalStatement:      true
+SpacesInConditionalStatement:      false
 SpacesInContainerLiterals:         true
 SpacesInCStyleCastParentheses:     false
 SpacesInLineCommentPrefix:
